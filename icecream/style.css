@@ -1,0 +1,148 @@
+body {
+  overflow-x: hidden;
+  font-family:'Open Sans';
+  background-color: #dcdcdc;
+}
+
+.home-inner {
+  background-image: url("img/icecream3.jpg");
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+}
+
+.caption h4 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: .06em;
+}
+
+h3.heading {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.9rem;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.text-secondary {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: .04em;
+  margin-top: 0.4rem;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 80%;
+  /* box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.1), 0px 0px 15px 1px rgba(0, 0, 0, 0.16); */
+}
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  /* background: #E9ECEF; */
+  z-index: -1;
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.jumbotron {
+  background-color: #dcdcdc;
+}
+
+.ignore {
+  background-color: #7cbdb5;
+}
+
+.chip {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.title1 {
+  color: #7ebfc7;
+  text-align: left;
+}
+
+.frame1 {
+  width: 80%;
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+  .landing {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width : 1024px) {
+  .landing {
+    height: 50vh;
+  }
+
+  .caption {
+    display: none;
+  }
+
+  .card {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (max-width : 835px) {
+  .landing {
+    height: 30vh;
+  }
+
+  .caption {
+    display: none;
+  }
+
+  .card {
+    max-width: 60%;
+  }
+
+  .frame1 {
+    width: 100%;
+  }
+}
