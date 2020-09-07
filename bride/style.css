@@ -1,0 +1,191 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.list {
+  list-style-type: circle;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+
+/* e5b3b6 */
+#title, #info {
+  background-color: #ffa8a9;
+}
+
+.kot {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding-left: 35px;
+}
+
+.dress {
+  width: 100%;
+}
+
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.btn1 {
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.btn2 {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.pic {
+  width: 50%;
+}
+
+.navbar {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+a.navbar-brand {
+  font-family: "Pacifico";
+  font-size: 2rem;
+  margin-left: 30px;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-size: 1.1rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+#features {
+  padding: 2% 14%;
+  background-color: #fbd9db;
+}
+
+p {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+.hh {
+  font-family: "Open Sans";
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #363636;
+}
+
+.hhh {
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #363636;
+  padding-top: 10px;
+}
+
+.icon {
+  color: #f88c93;
+  margin-bottom: 1rem;
+}
+
+#testimonials {
+  background-color: #e5b3b6;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 2;
+}
+
+.bridy {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#pricing {
+  padding: 7% 14%;
+  background-color: #fbd9db;
+}
+
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+div.card-header {
+  background-color: #ffa8a9;
+  color: #fff;
+  font-weight: bold;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ffa8a9;
+  color: #fff;
+  padding: 5% 14%;
+}
+
+.cta-heading {
+  font-weight: bold;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+#footer {
+  background-color: #fbd9db;
+  padding-top: 40px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.frame1 {
+  width: 80%;
+  background-color: #fbd9db;
+}
+
+@media only screen and (max-width: 835px) {
+  .frame1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1028px) {
+  .hero {
+    text-align: center;
+  }
+
+  .pic {
+    text-align: center;
+  }
+}
