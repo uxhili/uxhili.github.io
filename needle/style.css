@@ -1,0 +1,109 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #cde3df;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.navbar-toggler-icon {
+  font-size: 0.8em;
+}
+
+#showcase {
+  background: url("img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+h4 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  line-height: 2;
+}
+
+.title1 {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #62958c;
+}
+
+.btn {
+  background-color: #62958c;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #79b3a8;
+  color: #fff;
+}
+
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.frame1 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 80%;
+}
+
+
+@media(max-width: 768px) {
+  .navbar {
+    background: #66948d;
+  }
+}
+
+
+@media only screen and (max-width: 835px) {
+
+ #showcase {
+ min-height: 50vh;
+ }
+
+ .frame1 {
+   width: 100%;
+ }
+}
