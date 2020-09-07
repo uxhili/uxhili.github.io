@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  margin-top: 50px;
+  font-size: 16px;
+
+}
+
+h2 {
+  color: #fff;
+  letter-spacing: 0.7;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 4vw;
+  font-family: 'Poppins' !important;
+  text-shadow: .1em .1em rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #fff;
+  letter-spacing: 0.7;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Poppins';
+  text-shadow: .1em .1em rgba(0, 0, 0, 0.1);
+}
+
+p {
+  padding-top: 20px;
+  font-family: 'Open Sans';
+  font-size: 1.1em;
+}
+
+
+
+.coffee {
+  padding-top: 10px;
+  align-items: center;
+}
+
+
+.navbar-default {
+  background: #fff;
+  border: 0;
+  font-family: 'open sans';
+  font-size: 14px;
+}
+
+
+.navbar-brand {
+  font-size: 20px;
+  color: #255881 !important;
+  font-weight: 700;
+  font-family: 'Poppins';
+  text-transform: capitalize;
+}
+
+#showcase {
+  background: #db8ebe;
+/* background: #e092c3; */
+}
+
+#showcase h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#showcase img {
+  width: 85%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#showcase .showcase-right {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.righty {
+   margin: 0 auto;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  width: 90%;
+  padding-bottom: 3rem;
+}
+
+#three {
+  background-color: #fff;
+}
+
+.test {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+.card-text1 {
+  font-size: 1rem;
+}
+
+.text-info {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+
+.frame1 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 80%;
+}
+
+.col-sm-9 {
+  margin-bottom:1.5em;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 850px) {
+  #showcase .showcase-right {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .card-img-top {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+   .righty {
+     text-align: center;
+   }
+   .frame1 {
+     width: 90%;
+   }
+}
