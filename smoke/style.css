@@ -1,0 +1,118 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #88c38f;
+}
+/* # */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h2 {
+  margin: 40px;
+
+}
+
+p {
+    margin: 40px;
+    font-size: 1.1em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+color: #f5f6c8;
+}
+
+.logo {
+  margin-bottom: 0px;
+  color: #f8f8ff !important;
+  opacity: 0.8;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+
+
+.masthead .masthead-content h1 {
+  font-size: 2.5rem;
+}
+
+.masthead .masthead-content p {
+  font-size: 1.2rem;
+}
+
+.masthead .masthead-content p strong {
+  font-weight: 700;
+}
+
+.masthead .masthead-content .input-group-newsletter input {
+  height: auto;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.masthead .masthead-content .input-group-newsletter button {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+
+.btn-secondary {
+  background-color: #cd9557;
+  border-color: #cd9557;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #ba7c37 !important;
+  border-color: #ba7c37 !important;
+}
+
+.input {
+  font-weight: 300 !important;
+}
+
+.input-group {
+  margin: 20px;
+}
+
+.nav-item {
+  font-size: 1em;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+.frame1 {
+  width: 80%;
+}
+
+@media only screen and (max-width: 835px) {
+
+ .frame1 {
+   width: 90%;
+ }
+}
+
+@media only screen and (max-width: 700px) {
+   .header-content {
+     flex-direction : column;
+   }
+   .righty {
+     order: 2;
+   }
+   .lefty {
+          order : 1;
+    }
+}
