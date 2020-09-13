@@ -35,6 +35,7 @@ body {
 
 div.card {
 border: 2px dashed #79a769;
+border-radius: 20px;
 }
 
 .fas, h5 {
