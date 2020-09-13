@@ -163,6 +163,9 @@ border-top-right-radius: 5px;
   width: 120px;
 }
 
+.p-3 {
+  padding: 2rem!important;
+}
 
 
 @media only screen and (max-width: 835px) {
@@ -194,8 +197,5 @@ span {
   font-size: 13px;
 }
 
-/* .volunteer {
-  padding left: 20px;
-  padding-right: 20px; */
-}
+
 }
