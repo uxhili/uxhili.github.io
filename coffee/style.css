@@ -63,7 +63,6 @@ p {
 
 #showcase {
   background: #db8ebe;
-/* background: #e092c3; */
 }
 
 #showcase h1 {
@@ -92,7 +91,8 @@ p {
 
 .card-img-top {
   width: 90%;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 #three {
@@ -125,21 +125,14 @@ p {
   margin-bottom:1.5em;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 850px) {
-    .righty {
-    display: none;
-  }
-
-  .card-img-top {
-    width: 70%;
-  }
-}
 
 @media only screen and (max-width: 835px) {
    .righty {
-    display: none;
-  }
-   .frame1 {
-     width: 90%;
+     display: none;
+   }
+
+
+   img.card-img-top {
+     width: 70%;
    }
 }
