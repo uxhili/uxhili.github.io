@@ -2,13 +2,11 @@ html {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-
 }
 
 body {
   margin-top: 50px;
   font-size: 16px;
-
 }
 
 .navbar-toggler,
@@ -46,13 +44,10 @@ p {
   font-size: 1.1em;
 }
 
-
-
 .coffee {
   padding-top: 10px;
   align-items: center;
 }
-
 
 .navbar-default {
   background: #fff;
@@ -60,7 +55,6 @@ p {
   font-family: 'open sans';
   font-size: 14px;
 }
-
 
 .navbar-brand {
   font-size: 20px;
@@ -91,7 +85,7 @@ p {
 }
 
 .righty {
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
 .card {
@@ -113,7 +107,6 @@ p {
   margin-bottom: 60px;
 }
 
-
 .card-text1 {
   font-size: 1rem;
 }
@@ -123,7 +116,6 @@ p {
   padding-bottom: 20px;
 }
 
-
 .frame1 {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -131,24 +123,37 @@ p {
 }
 
 .col-sm-9 {
-  margin-bottom:1.5em;
+  margin-bottom: 1.5em;
 }
 
 @media only screen and (max-width: 835px) {
-   .righty {
-     display: none;
-   }
-
-
-   /* img.card-img-top {
-     width: 80%;
-   } */
+  .righty {
+    display: none;
+  }
 }
 
-/* @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  img.card-img-top {
+    width: 50%;
+  }
+
+  .righty {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  img.card-img-top {
+    width: 50%;
+  }
+
+  .righty {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
   img.card-img-top {
     width: 70%;
-  } */
+  }
 }
