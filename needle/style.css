@@ -106,4 +106,8 @@ p {
  .frame1 {
    width: 100%;
  }
+  
+   .card-img-top {
+   width: 90%;
+ }
 }
