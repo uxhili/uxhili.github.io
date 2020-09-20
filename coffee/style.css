@@ -94,12 +94,12 @@ p {
 
 .card-img-top {
   width: 90%;
-  padding-bottom: 4rem;
-  padding-top: 4rem;
 }
 
 #three {
   background-color: #fff;
+  padding-top: 7rem;
+  /* padding-bottom: 4rem; */
 }
 
 .test {
@@ -127,33 +127,42 @@ p {
 }
 
 @media only screen and (max-width: 835px) {
-  .righty {
-    display: none;
-  }
-}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  img.card-img-top {
-    width: 50%;
-  }
 
   .righty {
     display: none;
   }
+
+  .navbar-brand {
+    font-size: 17px;
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  img.card-img-top {
-    width: 50%;
-  }
-
-  .righty {
-    display: none;
-  }
+.card-img-top {
+  padding-top: 3rem;
+  padding-bottom: 0;
+  width: 70%;
 }
 
-@media (max-width: 576px) {
-  img.card-img-top {
-    width: 70%;
-  }
+.frame1 {
+  width: 100%;
+}
+
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1){
+    .card-img-top {
+      width: 90%;
+    }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .card-img-top {
+      width: 70%;
+    }
 }
