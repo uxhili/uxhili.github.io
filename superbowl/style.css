@@ -25,8 +25,9 @@ h5 {
 }
 
 #middle, #info {
-  background-color: #48814c;
+  background-color: #49824d;
 }
+
 
 .win {
   width: 70%;
@@ -77,12 +78,9 @@ h5 {
   overflow-x: hidden;
 }
 
-
-
 .frame1 {
   width: 80%;
 }
-
 
 @media only screen and (max-width: 835px) {
   .frame1 {
