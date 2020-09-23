@@ -81,8 +81,17 @@ a.navbar-brand {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.07rem;
   text-align: left;
+  padding: 0 2%;
+}
+
+.hhh {
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #363636;
+  padding: 1% 2%;
 }
 
 .feature-box {
@@ -97,13 +106,7 @@ p {
   color: #363636;
 }
 
-.hhh {
-  font-family: "Open Sans";
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #363636;
-  padding-top: 10px;
-}
+
 
 .title1 {
   font-family: "Open Sans";
@@ -113,7 +116,9 @@ p {
   padding-top: 10px;
 }
 
-
+.card-body {
+  padding: 0.9rem !important;
+}
 
 .icon {
   color: #f88c93;
@@ -168,6 +173,7 @@ div.card-header {
   font-weight: bold;
   line-height: 1.5;
   padding-bottom: 20px;
+
 }
 
 #footer {
@@ -204,4 +210,3 @@ div.card-header {
     text-align: center;
   }
 }
-
