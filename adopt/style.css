@@ -199,6 +199,12 @@ border-top-right-radius: 5px;
 span {
   font-size: 13px;
 }
-
-
 }
+
+@media only screen and (max-width: 550px) {
+
+  #showcase {
+   min-height: 30vh;
+   }
+ }
+
