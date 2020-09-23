@@ -75,7 +75,7 @@ a.navbar-brand {
   font-size: 1.1rem;
 }
 
-#features {
+#features, #cards {
   padding: 2% 14%;
   background-color: #fbd9db;
 }
@@ -92,7 +92,7 @@ p {
 
 .hh {
   font-family: "Open Sans";
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #363636;
 }
@@ -105,10 +105,21 @@ p {
   padding-top: 10px;
 }
 
+.title1 {
+  font-family: "Open Sans";
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #363636;
+  padding-top: 10px;
+}
+
+
+
 .icon {
   color: #f88c93;
   margin-bottom: 1rem;
 }
+
 
 #testimonials {
   background-color: #e5b3b6;
@@ -128,8 +139,12 @@ h2 {
 }
 
 #pricing {
-  padding: 7% 14%;
+  padding: 8% 14%;
   background-color: #fbd9db;
+}
+
+#cards {
+    padding: 9% 14%;
 }
 
 .card {
@@ -144,8 +159,8 @@ div.card-header {
 
 #cta {
   text-align: center;
-  background-color: #ffa8a9;
-  color: #fff;
+  background-color: #fbd9db;
+  color: #000;
   padding: 5% 14%;
 }
 
