@@ -142,6 +142,10 @@ p.card-text {
   color: #000;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 #contact2 {
   min-height: 100vh;
   background: url("img/end.jpg");
