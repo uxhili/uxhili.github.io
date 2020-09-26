@@ -142,7 +142,7 @@ p.card-text {
   color: #000;
 }
 
-a:hover {
+a:hover, a:focus, a:active, a:visited, a:link {
     text-decoration: none;
 }
 
