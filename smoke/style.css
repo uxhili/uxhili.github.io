@@ -22,7 +22,7 @@ p {
     font-size: 1.1em;
 }
 
-i {
+i, .title {
 color: #f5f6c8;
 }
 
