@@ -88,6 +88,11 @@ h5 {
   .second {
     display: none;
   }
+
+.first {
+    content: url("img/super3.jpg");
+  }
+
 .sample {
   width: 80%;
 }
