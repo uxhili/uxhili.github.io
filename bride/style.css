@@ -32,6 +32,12 @@ body {
   padding-left: 35px;
 }
 
+.by {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-left: 35px;
+}
+
 .dress {
   width: 100%;
 }
