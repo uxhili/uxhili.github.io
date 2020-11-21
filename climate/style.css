@@ -208,6 +208,9 @@ h5 {
   margin: 0 auto;
 }
 
+.dash {
+   font-size: 1rem;
+}
 
 @media only screen and (max-width : 835px) {
   header .container-fluid .col-md-7 h3 {
