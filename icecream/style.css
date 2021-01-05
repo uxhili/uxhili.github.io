@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family:'Open Sans';
+  font-family: 'Open Sans';
   background-color: #dcdcdc;
 }
 
@@ -44,6 +44,143 @@ h5 {
   font-size: 14px;
   letter-spacing: .04em;
   margin-top: 0.4rem;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 80%;
+  /* box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.1), 0px 0px 15px 1px rgba(0, 0, 0, 0.16); */
+}
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  /* background: #E9ECEF; */
+  z-index: -1;
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.jumbotron {
+  background-color: #dcdcdc;
+}
+
+.ignore {
+  background-color: #7cbdb5;
+}
+
+.chip {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.title1 {
+  color: #7ebfc7;
+  text-align: left;
+}
+
+.frame1 {
+  width: 80%;
+}
+
+.text-info {
+  font-size: 17px;
+  letter-spacing: 0.8px;
+}
+
+
+.case {
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+
+.plan {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+li {
+  padding-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+  .landing {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width : 800px) {
+  .home-inner {
+    background-image: url("img/ice.jpg");
+    background-position: center center;
+  }
+
+  .landing {
+    height: 50vh;
+  }
+
+
+  .caption {
+    display: none;
+  }
+
+  .card {
+    max-width: 70%;
+  }
+
+  .frame1 {
+    width: 100%;
+  }
+}
+
+
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 264dpi),
+  only screen and (                min-resolution: 2dppx) {
+    .home-inner {
+      background-image: url("img/ice.jpg");
+      background-position: center center;
+    }
+
+
+    .caption {
+      display: none;
+    }
+}
+
 }
 
 .card {
