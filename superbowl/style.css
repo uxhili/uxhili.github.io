@@ -47,7 +47,7 @@ h5 {
 }
 
 .card-back {
-  transform: rotateY(360deg);
+  transform: rotateY(180deg);
   position: absolute;
   top: 0;
 }
