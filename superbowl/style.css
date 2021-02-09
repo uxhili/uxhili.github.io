@@ -44,10 +44,12 @@ h5 {
 
 .card-front {
   transform: rotateY(0deg);
+  backface-visibility: hidden;
 }
 
 .card-back {
   transform: rotateY(180deg);
+  backface-visibility: hidden;
   position: absolute;
   top: 0;
 }
