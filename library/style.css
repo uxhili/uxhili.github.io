@@ -50,6 +50,11 @@ h4 {
   border-radius: 8px;
 }
 
+.lib {
+padding-top: 7px;
+padding-bottom: 7px;
+}
+
 .last {
   background-color: #73a6aa;
   color: #fff;
