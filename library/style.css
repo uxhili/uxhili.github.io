@@ -87,6 +87,10 @@ footer p {
   padding-top: 10px;
 }
 
+strong {
+  padding-right: 5px;
+}
+
 /*EVENTS*/
 .pic1 {
   width: 85%;
