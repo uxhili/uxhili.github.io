@@ -25,7 +25,7 @@ font-weight: bold;
 }
 
 .navbar {
-  background-color: #cb8fa8;
+  background-color: #db8fbe;
 }
 
 header.masthead {
@@ -36,7 +36,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  background-color: #cb8fa8;
+  background-color: #db8fbe;
   min-height: 100vh;
 }
 
