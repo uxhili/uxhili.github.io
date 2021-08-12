@@ -42,6 +42,7 @@ h4 {
    padding-bottom: 10px;
   font-weight: 600;
   font-size: 1.2rem;
+  color: #4a4848;
 }
 
 .pic {
@@ -109,8 +110,8 @@ strong {
 }
 
 .event-title {
-  color: #333;
-  padding-bottom: 10px;
+  color: #4a4848;
+  padding-bottom: 12px;
   padding-left: 20px;
   padding-top: 5px;
 }
