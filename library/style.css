@@ -235,7 +235,7 @@ body {
 
 @media only screen and (max-width: 835px) {
 
- header.masthead {
+ .hero {
  min-height: 50vh;
  }
 
