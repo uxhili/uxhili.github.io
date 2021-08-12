@@ -232,3 +232,14 @@ body {
   font-size: 17px;
   line-height: 1.7;
 }
+
+@media only screen and (max-width: 835px) {
+
+ header.masthead {
+ min-height: 50vh;
+ }
+
+ .frame1 {
+   width: 100%;
+ }
+}
