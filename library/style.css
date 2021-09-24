@@ -127,7 +127,6 @@ strong {
 }
 
 .col-md-11 {
-  margin-top: 30px;
   margin-left: 20px;
   margin-right: 10px;
   background-color: #f1d7bc;
@@ -137,7 +136,7 @@ strong {
   padding-bottom: 40px;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 form {
