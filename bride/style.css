@@ -163,8 +163,10 @@ h2 {
 }
 
 #cards {
-  padding: 9% 14%;
+  padding: 4% 13%;
 }
+
+
 
 .card {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
@@ -212,6 +214,41 @@ div.card-header {
   line-height: 1.7;
 }
 
+
+
+.pagination {
+   justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+.previous {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10%;
+}
+
+.home {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10%;
+}
+
+.next {
+  background-color: #000;
+  color: white;
+  border-radius: 10%;
+}
+
+
 @media only screen and (max-width: 835px) {
   .frame1 {
     width: 90%;
@@ -225,6 +262,10 @@ div.card-header {
     width: 80%;
   }
 }
+
+
+
+
 
 @media (max-width: 1028px) {
   .hero {
