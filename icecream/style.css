@@ -130,6 +130,13 @@ li {
   padding-bottom: 10px;
 }
 
+.title11 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  color: #363636;
+  padding-top: 10px;
+}
 
 
 @media only screen and (max-width : 1200px) {
