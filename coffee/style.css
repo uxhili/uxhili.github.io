@@ -94,6 +94,7 @@ p {
 
 .card-img-top {
   width: 90%;
+  border-radius: 10px;
 }
 
 #three {
