@@ -31,7 +31,7 @@ h5 {
 #middle, #info {
   background-color: #49824d;
 }
-
+/* 
 .card-flip > div {
   backface-visibility: hidden;
   transition: transform 300ms;
@@ -60,7 +60,7 @@ h5 {
   transform: rotateY(0deg);
 }
 
-
+ */
 .win {
   width: 60%;
 }
