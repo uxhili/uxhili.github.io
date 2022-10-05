@@ -3,358 +3,200 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180947568-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180947568-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-180947568-1');
-  </script>
+  gtag('config', 'UA-180947568-1');
+</script>
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Libre+Franklin|Poppins|Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap" rel="stylesheet">
-  <link rel="icon" href="img/favicon.png">
-  <!-- Font awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- css -->
-  <link rel="stylesheet" href="style.css">
-  <title>Hili</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Rubik|Sniglet|Poppins|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../climate/style.css">
+  <title>Climate</title>
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark">
-    <a class="navbar-brand ml-1 mr-5" href="index.html">Hili</a>
+  <header>
+    <div class="container-fluid p-0">
+      <nav class="navbar pt-3 navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          <i class="logo fas fa-fire fa-lg"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav mx-auto pr-5">
-        <a class="nav-item nav-link" href="#work">Work</a>
-        <a class="nav-item nav-link" href="#about">About</a>
-        <a class="nav-item nav-link" href="#contact">Contact</a>
-      </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="ml-auto"></div>
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Teachers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Join</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </nav>
 
 
+    <section id="one">
+      <div class="container-fluid text-center p-0">
+        <div class="row no-gutters">
+          <div class="col-md-7 col-sm-12 my-auto pt-5">
+            <h6>Climate Change</h6>
+            <h3>It's Getting Hot in Here</h3>
+            <p class="we mx-5"> We are the first generation to feel the sting of climate change and the last generation that can create a real difference.</p>
+            <button class="btn btn-light px-5 py-2">Learn More</button>
+          </div>
+          <div class="water col-md-5 col-sm-12 my-auto mr-0 pt-0">
+            <div>
+              <img src="img/pink.png" class="waterImg img-fluid" alt="water">
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+  </section>
 
-  <!-- hero -->
-  <section id="showcase" class="d-flex img-fluid justify-content-center align-items-center">
-    <div class="header container text-white text-center">
+  <section id="two">
+    <div class="container text-center mt-5">
+      <div class="row mt-3">
+        <div class="col-sm-4 p-3">
+          <i class="fas fa-icicles fa-3x"></i>
+          <h5>The Mission</h5>
+          <p>Empowering individual action to fight climate change.</p>
+        </div>
+        <div class="col-sm-4 p-3">
+          <i class="fas fa-book-open fa-3x"></i>
+          <h5>Education</h5>
+          <p>Provide scientific information for students and educators.</p>
+        </div>
+        <div class="col-sm-4 p-3">
+          <i class="fas fa-user-friends fa-3x"></i>
+          <h5>Take a Stand </h5>
+          <p>Join millions around the world for urgent action on climate.</p>
+        </div>
+      </div>
     </div>
   </section>
 
 
-  <!-- title -->
-  <br>
-  <br>
-  <div class="container align-items-center mt-5 data-spy=" scroll" data-target="#navbar-example3" data-offset="0">
-    <div class="hili card align-items-center">
-      <div class="card-body text-center">
-        <h4 class="card-title" id="work">Hi, I'm Hili</h4>
-        <p class="texti"> I'm a designer and creative lead. <br> I enjoy creating design experiences that evoke curiosity, engage users and generate results. <br> Scroll on to see my work.</p>
+  <section id="three">
+    <div class="container text-center mt-2 p-3">
+      <div class="row m-2">
+        <div class="col-sm-4 p-3">
+          <img src="img/4.png" class="card-img-top" alt="">
+        </div>
+        <div class="col-sm-4 p-3">
+          <img src="img/5.png" class="card-img-top" alt="">
+        </div>
+        <div class="col-sm-4 p-3">
+          <img src="img/6.png" class="card-img-top" alt="">
+        </div>
       </div>
-    </div>
-  </div>
-  <br>
-  <br>
-
-
-  <article id="page-multicolumn" class="page-section">
-    <section class="layout-multicolumn container family-sans text-center py-4">
-      <div class="row justify-content-center py-2">
-
-
-
-
-        <section class="photo-modal mb-5 col-md-6">
-          <a href="icecream/index.html" target="_blank">
-            <img class="img-fluid rounded" src="img/ignore11.png" alt="diabetes">
-            <div class="card-body text-center">
-              <h5 class="card-title">The Enemy</h5>
-              <p class="card-text">Helping diabetic students adjust to college</p>
-          </a>
-      </div>
-    </section>
-
-
-
-  <section class="photo-modal mb-5 col-md-6">
-      <a href="soda/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/soda.png" alt="soda">
-        <div class="card-body text-center">
-          <h5 class="card-title">The Podcast</h5>
-          <p class="card-text">Playing the sound of wellness </p>
-      </a>
-      </div>
-    </section>
-
-
-
-    <section class="photo-modal mb-5 col-md-6">
-      <a href="needle/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/needle.png" alt="woman">
-        <div class="card-body text-center">
-          <h5 class="card-title">Just Do It</h5>
-          <p class="card-text">Empowering women to overcome life's challenges</p>
-      </a>
-      </div>
-    </section>
-
-
-    <section class="photo-modal mb-5 col-md-6">
-      <a href="smoke/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/smoke.png" alt="cigarette">
-        <div class="card-body text-center">
-          <h5 class="card-title">Quit for Good</h5>
-          <p class="card-text">Encouraging athletes to quit smoking</p>
-      </a>
-      </div>
-    </section>
-
-
-
-
-    <section class="photo-modal mb-5 col-md-6">
-      <a href="superbowl/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/super100a.png" alt="super bowl">
-        <div class="card-body text-center">
-          <h5 class="card-title">The Super Bowl</h5>
-          <p class="card-text">Making the Super Bowl more rewarding</p>
-      </a>
-      </div>
-    </section>
-
-
-
-    <!--  <section class="photo-modal mb-5 col-md-6">
-      <a href="coffee/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/coffee.png" alt="coffe">
-        <div class="card-body text-center">
-          <h5 class="card-title">The Bagel</h5>
-          <p class="card-text">Bringing smoothness to breakfast</p>
-      </a>
-      </div>
-    </section>
-
-   <section class="photo-modal mb-5 col-md-6">
-      <a href="bride/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/wedding.png" alt="bride">
-        <div class="card-body text-center">
-          <h5 class="card-title">The Transformation</h5>
-          <p class="card-text">Helping brides feel their best in their dress</p>
-      </a>
-      </div>
-    </section>
--->
-
-
-
-    <section class="photo-modal mb-5 col-md-6">
-      <a href="climate/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/climate.png" alt="climate change">
-        <div class="card-body text-center">
-          <h5 class="card-title">Climate Change</h5>
-          <p class="card-text">Helping to stop climate change</p>
-      </a>
-      </div>
-    </section>
-
-    <!-- <section class="photo-modal mb-5 col-md-6">
-      <a href="library/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/library.png" alt="library">
-        <div class="card-body text-center">
-          <h5 class="card-title">The Library</h5>
-          <p class="card-text">Attracting teens to the public library</p>
-      </a>
-      </div>
-    </section> -->
-
-
-    <section class="photo-modal mb-5 col-md-6">
-      <a href="adopt/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/adopt.jpg" alt="adopt">
-        <div class="card-body text-center">
-          <h5 class="card-title">Adoption Day</h5>
-          <p class="card-text">Encouraging you to adopt rescue dogs</p>
-      </a>
-      </div>
-    </section>
-
-    <section class="photo-modal mb-5 col-md-6">
-      <a href="ny/index.html" target="_blank">
-        <img class="img-fluid rounded" src="img/test2.jpg" alt="nyc">
-        <div class="card-body text-center">
-          <h5 class="card-title">The Escape</h5>
-          <p class="card-text">Coming Soon...</p>
-      </a>
-      </div>
-    </section>
-
-    </div>
-    </section>
-  </article>
-  <br>
-  <br>
-
-
-  <!-- editorial -->
-  <div class="container">
-    <h3 class="editorial text-center">Visual Design</h3>
-    <p class="card-text text-center px-3">Creating visual storytelling is one of my favorite pastime</p>
-  </div>
-  <article id="page-multicolumn" class="page-section">
-    <section class="layout-multicolumn container family-sans text-center py-4">
-      <div class="row justify-content-center py-2">
-
-        <section class="photo-modal mb-4 col-md-4 col-sm-6">
-          <img class="img-fluid rounded zoom" src="img/veg.png" alt="vegan"></a>
-          <div class="card-body text-center">
-            <p class="card-text">Vegan Curiosity</p>
-          </div>
-        </section>
-
-        <section class="photo-modal mb-4 col-md-4 col-sm-6">
-          <img class="img-fluid rounded zoom" src="img/egg.png" alt="gluten"></a>
-          <div class="card-body text-center">
-            <p class="card-text">The Joy of Gluten</p>
-          </div>
-        </section>
-
-
-
-
-
-                <section class="photo-modal mb-4 col-md-4 col-sm-6">
-                  <img class="img-fluid rounded zoom" src="img/coffee1.png" alt="coffee"></a>
-                  <div class="card-body text-center">
-                    <p class="card-text">The Ultimate Combo</p>
-                  </div>
-                </section>
-
-        <section class="photo-modal mb-4 col-md-4 col-sm-6">
-          <img class="img-fluid rounded zoom" src="img/oscar.png" alt="oscar"></a>
-          <div class="card-body text-center">
-            <p class="card-text">Oscar's Ratings collapse</p>
-          </div>
-        </section>
-
-        <section class="photo-modal mb-4 col-md-4 col-sm-6">
-          <img class="img-fluid rounded zoom" src="img/smooth.jpg" alt="holiday"></a>
-          <div class="card-body text-center">
-            <p class="card-text">Smooth Holiday </p>
-          </div>
-        </section>
-
-
-        <section class="photo-modal mb-4 col-md-4 col-sm-6">
-          <img class="img-fluid rounded zoom" src="img/holly.png" alt="hollywood"></a>
-          <div class="card-body text-center">
-            <p class="card-text">#MeToo and Hollywood </p>
-          </div>
-        </section>
-
-        <section class="photo-modal mb-4 col-md-4 col-sm-6">
-          <img class="img-fluid rounded zoom" src="img/library.png" alt="music"></a>
-          <div class="card-body text-center">
-            <p class="card-text">Music Workshop</p>
-          </div>
-        </section>
-
-
-        <section class="photo-modal mb-4 col-md-4 col-sm-6">
-          <img class="img-fluid rounded zoom" src="img/slide.jpg" alt="halloween"></a>
-          <div class="card-body text-center">
-            <p class="card-text">Trick or Treat</p>
-          </div>
-        </section>
-
-        <section class="photo-modal mb-4 col-md-4 col-sm-6">
-          <img class="img-fluid rounded zoom" src="img/mlk.jpg" alt="mlk"></a>
-          <div class="card-body text-center">
-            <p class="card-text">Martin Luther King Day</p>
-          </div>
-        </section>
-
-      </div>
-    </section>
-  </article>
-
-  <br>
-  <br>
-  <br>
-
-  <!-- about -->
-  <section class="container">
-    <div class="row">
-      <div class="col-md-4 text-center my-auto">
-        <img class="img-fluid picme mx-auto" src="img/hili11.png" alt="Hili"></a>
-      </div>
-      <div class="col-md-8">
-        <h3 class="editorial px-3 pt-3" id="about">Hi, I'm Hili</h3>
-        <p class="aboutme px-3">A highly creative designer and creative lead with experience in all aspects of design. From product design, UX/UI and web development to visual design and motion graphics.<br>
-          I use design both as a tool and as a strategy to tell complex stories in simple and engaging ways and I always aim for design that is functional, surprising and sparks a smile or conversation.<br>
-          In 2012 I founded my own creative studio where I have been designing, developing and providing consulting services to different companies.<br>
-        </p>
-      </div>
-    </div>
     </div>
   </section>
-  </div>
-  <br>
-  <br>
-  <br>
 
+<br>
+<br>
 
-  <footer id="contact">
-    <div class="container text-center">
-      <h3 class="editorial text-center pt-2">Contact</h3>
+<div class="container">
+  <img class="teacher" src="img/dash.png" alt="podcast">
+</div>
 
-      <a href="mailto:uxhilistudio@gmail.com">
-        <i class="social-icon fas fa-envelope p-2"></i></a>
+<br>
+<br>
 
-
-      <a href="https://www.behance.net/hiligreen" target="_blank">
-        <i class="social-icon fab fa-behance p-2"></i></a>
-
-      <a href="https://www.instagram.com/myblockny" target="_blank">
-        <i class="social-icon fab fa-instagram p-2"></i></a>
-
-      <a href="https://dribbble.com/hiligreen" target="_blank">
-        <i class="social-icon fab fa-dribbble p-2"></i></a>
-
-
+  <section id="three">
+    <div class="container text-center mt-2 p-3">
+      <div class="row m-2">
+        <div class="col-sm-4 p-3">
+          <img src="img/un1.png" class="card-img-top" alt="">
+        </div>
+        <div class="col-sm-4 p-3">
+          <img src="img/un9.png" class="card-img-top" alt="">
+        </div>
+        <div class="col-sm-4 p-3">
+          <img src="img/un8.png" class="card-img-top" alt="">
+        </div>
+      </div>
     </div>
+  </section>
 
-  </footer>
+<br>
+<br>
+
+
+
+
+  <section id="three">
+    <div class="container text-center mt-2 p-3">
+      <div class="row m-2">
+        <div class="col-sm-4 p-3">
+          <img src="img/un4.png" class="card-img-top" alt="">
+        </div>
+        <div class="col-sm-4 p-3">
+          <img src="img/un6.png" class="card-img-top" alt="">
+        </div>
+        <div class="col-sm-4 p-3">
+          <img src="img/un5.png" class="card-img-top" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
   <br>
   <br>
-  <div class="container">
-    <p class="copy text-center"><i>Copyright &copy; 2012-2022 Designed by Hili.</i></p>
+  <br>
+
+
+
+
+
+  <div class="frame1 p-5 m-auto">
+    <h5 class="text-info pb-3 font-weight-bold">The Project:</h5>
+    <dl class="row">
+      <dt class="col-sm-2 text-info">Overview:</dt>
+      <dd class="col-sm-10 pb-3">
+        Act Now is the United Nations campaign for individual action on climate change.<br>
+        One of the essential principles of teaching climate change to students is the message that global warming has consequences for the earth and human lives.<br>
+        The digital resources help teachers guide students to take an active role and make responsible decisions when it comes to the
+        environment.
+      </dd>
+
+      <dt class="col-sm-2 text-info ">The task: </dt>
+      <dd class="col-sm-10 pb-3">Create a platform for teachers where they can easily follow the 4 weeks climate change program that empower individual action to fight climate change. <br>
+
+
+
+    </dl>
   </div>
   <br>
   <br>
-  <br>
-
-
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
