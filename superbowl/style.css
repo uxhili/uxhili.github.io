@@ -10,6 +10,25 @@ body {
   background-color: #729873;
 }
 
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.navbar-toggler-icon {
+  font-size: 0.8em;
+}
+
 .container-fluid {
   padding: 4% 10%;
 }
@@ -31,8 +50,8 @@ h5 {
 #middle, #info {
   background-color: #49824d;
 }
-/* 
-.card-flip > div {
+
+/* .card-flip > div {
   backface-visibility: hidden;
   transition: transform 300ms;
   transition-timing-function: linear;
@@ -40,9 +59,9 @@ h5 {
   height: 100%;
   margin: 0;
   display: flex;
-}
+} */
 
-.card-front {
+/* .card-front {
   transform: rotateY(0deg);
 }
 
@@ -58,9 +77,9 @@ h5 {
 
 .card-flip:hover .card-back {
   transform: rotateY(0deg);
-}
+} */
 
- */
+
 .win {
   width: 60%;
 }
