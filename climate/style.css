@@ -87,7 +87,7 @@ header .container-fluid .col-md-7 h6 {
 }
 
 header .container-fluid .col-md-7 h3 {
-  font-size: 5.1vmin;
+  font-size: 4.5vmin;
   font-weight: bold;
   padding: 0.1em 1em;
   color: #313131;
@@ -132,6 +132,8 @@ header {
 .burger {
   color: #fff !important;
 }
+
+
 
 .fas {
   color: #85cbd4;
@@ -186,9 +188,14 @@ p {
   box-shadow: none;
 }
 
-h5 {
+.tol {
+  color: #000000;
+}
+
+h5
+ {
   color: #7ebfc7;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .card-text {
@@ -223,4 +230,3 @@ h5 {
     width: 100%;
   }
 }
-
