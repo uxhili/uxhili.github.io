@@ -66,6 +66,8 @@ p {
 
 #showcase {
   background: #db8ebe;
+  width: 100%;
+  height: 100vh;
 }
 
 #showcase h1 {
