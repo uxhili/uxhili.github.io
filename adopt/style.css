@@ -10,6 +10,26 @@ body {
   line-height: 1.7;
 }
 
+.title3 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.4rem;
+}
+
+
+.title3::before {
+    content: "";
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -6px;
+    width: 70px;
+    border-bottom: 8px solid rgba(96,167,80,0.4);
+    z-index: -1;
+    border-radius: 50px;
+}
+
+
+
 .navbar {
   position: absolute;
   top: 0;
@@ -88,8 +108,8 @@ h4::before {
   padding-top: 20px;
 }
 
-.title{
-font-weight: bold;
+.title {
+font-weight: 900;
 }
 
 .card {
@@ -169,13 +189,12 @@ border-top-right-radius: 5px;
   width: 120px;
 }
 
+
 .p-3 {
   padding: 2rem!important;
 }
 
-
 @media only screen and (max-width: 835px) {
-
 
   #showcase {
    min-height: 50vh;
@@ -204,10 +223,10 @@ span {
 }
 }
 
+
 @media only screen and (max-width: 550px) {
 
   #showcase {
    min-height: 30vh;
    }
  }
-
