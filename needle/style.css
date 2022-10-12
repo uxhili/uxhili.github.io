@@ -27,7 +27,7 @@ body {
 }
 
 #showcase {
-  background: url("img/hero.jpg");
+  background: url("img/hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
