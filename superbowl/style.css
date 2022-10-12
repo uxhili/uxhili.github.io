@@ -47,10 +47,14 @@ h5 {
   justify-content: center;
 }
 
-#middle, #info {
+#info {
   background-color: #49824d;
 }
 
+
+.middle{
+  background-color: #49824d;
+}
 /* .card-flip > div {
   backface-visibility: hidden;
   transition: transform 300ms;
