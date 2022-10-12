@@ -40,9 +40,10 @@ header.masthead {
   min-height: 100vh;
 }
 
-.episodes {
-  font-size: 1.5rem;
+#episodes {
+  font-size: 1.8rem;
   padding-bottom: 1.5rem;
+  scroll-margin: 70px;
 }
 
 .card {
