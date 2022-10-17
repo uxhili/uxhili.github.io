@@ -17,6 +17,8 @@ body {
 }
 
 
+
+
 .title3::before {
     content: "";
     position: absolute;
@@ -28,7 +30,23 @@ body {
     border-radius: 50px;
 }
 
+.title2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.3rem;
+}
 
+
+.title2::before {
+    content: "";
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -6px;
+    width: 60px;
+    border-bottom: 15px solid rgba(96,167,80,0.4);
+    z-index: -1;
+    border-radius: 50px;
+}
 
 .navbar {
   position: absolute;
@@ -59,22 +77,22 @@ body {
 
 div.card {
 border: 2px dashed #79a769;
-border-radius: 20px;
+border-radius: 50px;
 }
 
 .fas, h5 {
-color: #60a750;
+color: #72b962;
 }
 
 
 .btn-outline-success {
-    background-color: #79a769 !important;
+    background-color: #66b355 !important;
     color: #fff;
 
 }
 
 .btn-outline-success:active {
-  background-color: #f7c05c !important;
+  background-color: #66b355 !important;
 border: none !important;
 }
 
