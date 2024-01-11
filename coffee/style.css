@@ -1,184 +1,102 @@
-html {
-  scroll-behavior: smooth;
+
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+
 body {
-  margin-top: 50px;
-  font-size: 16px;
+  background-color: #8cc5e5;
 }
 
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
+
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 700 !important;
+  font-size: 0.7rem;
 }
 
-h2 {
-  color: #fff;
-  letter-spacing: 0.7;
-  text-transform: capitalize;
-  font-weight: 600;
-  font-size: 4vw;
-  font-family: 'Poppins' !important;
-  text-shadow: .1em .1em rgba(0, 0, 0, 0.1);
+h5 {
+  font-family: 'Catamaran', 'Open Sans', "Roboto", "Arial", sans-serif;
+font-weight: bold;
 }
 
-h3 {
-  color: #fff;
-  letter-spacing: 0.7;
-  text-transform: capitalize;
-  font-weight: 600;
-  font-size: 24px;
-  font-family: 'Poppins';
-  text-shadow: .1em .1em rgba(0, 0, 0, 0.1);
+.navbar {
+  background-color: #cb8fa8;
 }
 
-p {
-  padding-top: 20px;
-  font-family: 'Open Sans';
-  font-size: 1.1em;
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  background: url("img/cola.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: #cb8fa8;
+  min-height: 100vh;
 }
 
-.coffee {
-  padding-top: 10px;
-  align-items: center;
-}
-
-.navbar-default {
-  background: #fff;
-  border: 0;
-  font-family: 'open sans';
-  font-size: 14px;
-}
-
-.navbar-brand {
-  font-size: 20px;
-  color: #255881 !important;
-  font-weight: 700;
-  font-family: 'Poppins';
-  text-transform: capitalize;
-}
-
-#showcase {
-  background: #db8ebe;
-  width: 100%;
-  height: 100vh;
-}
-
-#showcase h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-
-#showcase img {
-  width: 85%;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-#showcase .showcase-right {
-  margin-top: 100px;
-  margin-bottom: 20px;
-}
-
-.righty {
-  margin: 0 auto;
+.episodes {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .card {
-  border: none;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
 
 .card-img-top {
-  width: 90%;
-  border-radius: 10px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
 }
 
-#three {
-  background-color: #fff;
-  padding-top: 7rem;
-  padding-bottom: 7rem; 
+
+.pp {
+  font-size: 1.2rem;
 }
 
-.test {
-  margin-top: 60px;
-  margin-bottom: 60px;
+.eye {
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+  padding-right: 0;
 }
 
-.card-text1 {
-  font-size: 1rem;
-}
-
-.text-info {
-  font-weight: bold;
-  padding-bottom: 20px;
+.pod {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .frame1 {
-  padding-left: 5rem;
-  padding-right: 5rem;
   width: 80%;
   font-size: 17px;
   line-height: 1.7;
 }
 
-.col-sm-9 {
-  margin-bottom: 1.5em;
+.title11 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  color: #000000;
+  padding-top: 10px;
+}
+
+.up {
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 835px) {
 
-  .righty {
-    display: none;
-  }
+ header.masthead {
+ min-height: 50vh;
+ }
 
-  .navbar-brand {
-    font-size: 17px;
-}
-
-.card-img-top {
-  padding-top: 3rem;
-  padding-bottom: 0;
-  width: 70%;
-}
-
-.frame1 {
-  width: 100%;
-}
-
-}
-
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 1){
-    .card-img-top {
-      width: 90%;
-    }
-}
-
-
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 1){
-    .card-img-top {
-      width: 90%;
-    }
-}
-
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .card-img-top {
-      width: 70%;
-    }
+ .frame1 {
+   width: 100%;
+ }
 }
