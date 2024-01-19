@@ -133,7 +133,9 @@ header {
   color: #fff !important;
 }
 
-
+.text-info {
+  font-weight: 500;
+}
 
 .fas {
   color: #85cbd4;
